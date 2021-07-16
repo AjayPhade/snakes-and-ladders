@@ -127,7 +127,7 @@ int menu(int type)
     if(type == 0)
         cout << "\n\n\t\t\t   -------MAIN MENU-------\n" << T << "1. New Game" << T << "2. Load Game" <<  T << "3. Exit" << T << "Choose: ";
     else
-        cout << "\n\n\t\t\t   -------MAIN MENU-------\n" << T << "1. New Game (You will lost current progress)" << T << "2. Continue" << T << "3. Exit" << T << "Choose: ";
+        cout << "\n\n\t\t\t   -------MAIN MENU-------\n" << T << "1. New Game (You will lose current progress)" << T << "2. Continue" << T << "3. Exit" << T << "Choose: ";
     cin >> ch;
     if(type == 1)
     {
